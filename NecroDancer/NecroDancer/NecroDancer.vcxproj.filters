@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DFrameWork">
+      <UniqueIdentifier>{df58ce55-af93-4158-b474-66c9e86fb500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\image">
+      <UniqueIdentifier>{f60cb30a-007c-4ea6-8fce-2295b781fb2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\manager">
+      <UniqueIdentifier>{630ccfea-0e87-4db4-8db3-832ebb5b0a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\singleton">
+      <UniqueIdentifier>{487530ee-062a-412a-b356-6d83aac6c477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Club">
+      <UniqueIdentifier>{61944a65-8241-4c8a-8791-75040ee78070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\Timer">
+      <UniqueIdentifier>{4a6e57d7-f12d-4d6c-b05a-9e6d51e51ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\D2D">
+      <UniqueIdentifier>{b3c6cda9-adf8-4fa3-b579-36519269d4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\TXT">
+      <UniqueIdentifier>{cd8e261c-2e36-49fa-900a-e0284d078ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\Animation">
+      <UniqueIdentifier>{24d6e181-b7c3-49ac-a28e-014adff7f3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Club\Beat">
+      <UniqueIdentifier>{96ea9a07-db89-4f80-8134-cc89343d310d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Club\Player">
+      <UniqueIdentifier>{b728c155-5269-418b-add8-39ae6b52d7a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Club\Enemy">
+      <UniqueIdentifier>{5057e8ab-36a0-4f2c-bd50-0aba2d8ca5a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Club\Loading">
+      <UniqueIdentifier>{e3543767-3e89-473b-a4e9-ba0454173342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Club\Beat\StageBeat">
+      <UniqueIdentifier>{4a599f2f-ebd9-4d22-8bd4-004d35e2beac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Club\Stage">
+      <UniqueIdentifier>{68baa989-58d5-4fd5-9561-58b736a03dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Club\Helper">
+      <UniqueIdentifier>{26a93957-5f79-4c59-a7cd-1255bdc2fd6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Club\Helper\RenderHelper">
+      <UniqueIdentifier>{5e8f2e10-03cc-4c55-944c-94ae039f8084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Club\Helper\MoveHelper">
+      <UniqueIdentifier>{a5ef1c3e-61cc-4dc0-ad42-a67faf9fd675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Club\Enemy\Pattern">
+      <UniqueIdentifier>{64d823fe-85d1-44d1-893b-80f315ee04dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Club\Enemy\AI">
+      <UniqueIdentifier>{96bd48cb-023d-4942-ab48-1eaab5f0b842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Club\Enemy\NPC">
+      <UniqueIdentifier>{cca84f6c-32a3-49f5-b367-4469bd6d8d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Club\Enemy\Boss">
+      <UniqueIdentifier>{4a5c5297-b89a-49c4-9867-96368fbbd686}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="NecroDancer.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>2DFrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiImage.h">
+      <Filter>2DFrameWork\image</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>2DFrameWork\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Club.h">
+      <Filter>Club</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>2DFrameWork\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DUtils.h">
+      <Filter>2DFrameWork\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DImage.h">
+      <Filter>2DFrameWork\image</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DText.h">
+      <Filter>2DFrameWork\TXT</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>2DFrameWork\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DManager.h">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumStruct.h">
+      <Filter>Club</Filter>
+    </ClInclude>
+    <ClInclude Include="HeartBeat.h">
+      <Filter>Club\Beat</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Club\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>Club\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1Beat.h">
+      <Filter>Club\Beat\StageBeat</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2Beat.h">
+      <Filter>Club\Beat\StageBeat</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>Club\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderHelper.h">
+      <Filter>Club\Helper\RenderHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveHelper.h">
+      <Filter>Club\Helper\MoveHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Club\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Slime_Green.h">
+      <Filter>Club\Enemy\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Club\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Slime_Ice.h">
+      <Filter>Club\Enemy\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Slime_Fire.h">
+      <Filter>Club\Enemy\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Skeleton_Base.h">
+      <Filter>Club\Enemy\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_ShopKeeper.h">
+      <Filter>Club\Enemy\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Skeleton_Armored.h">
+      <Filter>Club\Enemy\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Chest.h">
+      <Filter>Club\Enemy\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon_Green.h">
+      <Filter>Club\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>Club\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Sight.h">
+      <Filter>Club\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="TxtData.h">
+      <Filter>2DFrameWork\TXT</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>Club\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3Beat.h">
+      <Filter>Club\Beat\StageBeat</Filter>
+    </ClInclude>
+    <ClInclude Include="EndStage.h">
+      <Filter>Club\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearStage.h">
+      <Filter>Club\Stage</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NecroDancer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>2DFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="ApiImage.cpp">
+      <Filter>2DFrameWork\image</Filter>
+    </ClCompile>
+    <ClCompile Include="Club.cpp">
+      <Filter>Club</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>2DFrameWork\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DUtils.cpp">
+      <Filter>2DFrameWork\D2D</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DImage.cpp">
+      <Filter>2DFrameWork\image</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DText.cpp">
+      <Filter>2DFrameWork\TXT</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>2DFrameWork\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DManager.cpp">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="HeartBeat.cpp">
+      <Filter>Club\Beat</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>Club\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1Beat.cpp">
+      <Filter>Club\Beat\StageBeat</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2Beat.cpp">
+      <Filter>Club\Beat\StageBeat</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>Club\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderHelper.cpp">
+      <Filter>Club\Helper\RenderHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveHelper.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Club\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Slime_Green.cpp">
+      <Filter>Club\Enemy\Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Club\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Slime_Ice.cpp">
+      <Filter>Club\Enemy\Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Slime_Fire.cpp">
+      <Filter>Club\Enemy\Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Club\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Skeleton_Base.cpp">
+      <Filter>Club\Enemy\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_ShopKeeper.cpp">
+      <Filter>Club\Enemy\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Skeleton_Armored.cpp">
+      <Filter>Club\Enemy\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Chest.cpp">
+      <Filter>Club\Enemy\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon_Green.cpp">
+      <Filter>Club\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>Club\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Sight.cpp">
+      <Filter>Club\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TxtData.cpp">
+      <Filter>2DFrameWork\TXT</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>Club\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3Beat.cpp">
+      <Filter>Club\Beat\StageBeat</Filter>
+    </ClCompile>
+    <ClCompile Include="EndStage.cpp">
+      <Filter>Club\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearStage.cpp">
+      <Filter>Club\Stage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NecroDancer.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="NecroDancer.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

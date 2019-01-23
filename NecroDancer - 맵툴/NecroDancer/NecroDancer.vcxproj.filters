@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DFrameWork">
+      <UniqueIdentifier>{df58ce55-af93-4158-b474-66c9e86fb500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\image">
+      <UniqueIdentifier>{f60cb30a-007c-4ea6-8fce-2295b781fb2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\manager">
+      <UniqueIdentifier>{630ccfea-0e87-4db4-8db3-832ebb5b0a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\singleton">
+      <UniqueIdentifier>{487530ee-062a-412a-b356-6d83aac6c477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Club">
+      <UniqueIdentifier>{61944a65-8241-4c8a-8791-75040ee78070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\Timer">
+      <UniqueIdentifier>{4a6e57d7-f12d-4d6c-b05a-9e6d51e51ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\D2D">
+      <UniqueIdentifier>{b3c6cda9-adf8-4fa3-b579-36519269d4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\TXT">
+      <UniqueIdentifier>{cd8e261c-2e36-49fa-900a-e0284d078ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\Animation">
+      <UniqueIdentifier>{24d6e181-b7c3-49ac-a28e-014adff7f3fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="NecroDancer.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>2DFrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiImage.h">
+      <Filter>2DFrameWork\image</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>2DFrameWork\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Club.h">
+      <Filter>Club</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>2DFrameWork\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DUtils.h">
+      <Filter>2DFrameWork\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DImage.h">
+      <Filter>2DFrameWork\image</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DText.h">
+      <Filter>2DFrameWork\TXT</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>2DFrameWork\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DManager.h">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NecroDancer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>2DFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="ApiImage.cpp">
+      <Filter>2DFrameWork\image</Filter>
+    </ClCompile>
+    <ClCompile Include="Club.cpp">
+      <Filter>Club</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>2DFrameWork\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DUtils.cpp">
+      <Filter>2DFrameWork\D2D</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DImage.cpp">
+      <Filter>2DFrameWork\image</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DText.cpp">
+      <Filter>2DFrameWork\TXT</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>2DFrameWork\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DManager.cpp">
+      <Filter>2DFrameWork\manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NecroDancer.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="NecroDancer.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
